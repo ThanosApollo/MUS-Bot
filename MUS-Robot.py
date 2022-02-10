@@ -156,7 +156,7 @@ def back_callback(call: types.CallbackQuery):
 @bot.message_handler(commands=['library'])
 def send_library(message):
     bot.send_message(message.chat.id, """
-https://drive.google.com/drive/u/0/folders/1jwAcnVtDQwHH2yQgbClMMBzmh85gBarW \nUse your university email to login, if you have any additional resources you wihs to be added let me know, educational resources should be accessible for everyone :)
+https://drive.google.com/drive/u/0/folders/1jwAcnVtDQwHH2yQgbClMMBzmh85gBarW \nUse your university email to login, if you have any additional resources you wish to be added let me know, educational resources should be accessible for everyone :)
 """)
 
 @bot.message_handler(commands=['info'])
