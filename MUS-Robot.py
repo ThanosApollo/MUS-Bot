@@ -4,7 +4,7 @@ from telebot.custom_filters import AdvancedCustomFilter
 from API_Tokens import *
 from Contactinfo import *
 
-API_TOKEN = Testing_bot
+API_TOKEN = MUSRobot
 
 bot = TeleBot(API_TOKEN)
 products_factory = CallbackData('product_id', prefix='products')
