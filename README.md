@@ -1,5 +1,5 @@
 # MUS-Robot
- Hello, MUS-Robot is a telegram bot intended to be used by the Medical University of Sofia medical students, contains the contact info of the universities professors and a link to the students library, to access the student's library you need to use your university email.
+ Hello, MUS-Robot is a telegram bot intended to be used by the Medical University of Sofia medical students, contains the contact info of the university's professors and a link to the students library, to access the students library you need to use your university email.
 
 
 MUS-Robot link: https://t.me/MedUniSofia_bot
