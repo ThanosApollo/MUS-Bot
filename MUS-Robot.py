@@ -6,9 +6,8 @@ from Contactinfo import *
 from Keyboards import *
 
 API_TOKEN = testing_bot
-
+#test
 bot = TeleBot(API_TOKEN)
-
 
 
 @bot.message_handler(commands=['year1info'])
