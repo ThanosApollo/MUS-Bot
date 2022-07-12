@@ -1,6 +1,6 @@
-#+title: Readme
+#+title: MUS Robot | Telegram bot
+#+author: Thanos Apollo
 
-* MUS Robot | Telegram bot
 ** About
 + MUS Robot goal is to support MU-Sofia medical students
 + Provides information related our medical courses as well as links for study resources
