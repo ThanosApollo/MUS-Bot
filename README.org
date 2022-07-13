@@ -6,3 +6,7 @@
 + Provides information related our medical courses as well as links for study resources
 + Created using [[https://github.com/eternnoir/pyTelegramBotAPI][pyTelegramBotAPI]]
 + MUS Robot can be found [[https://t.me/MedUniSofia_bot][here]]
+
+**** TODO
++ Update main.py functions
++ Apply OOP concepts
