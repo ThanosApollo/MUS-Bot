@@ -7,6 +7,6 @@
 + Created using [[https://github.com/eternnoir/pyTelegramBotAPI][pyTelegramBotAPI]]
 + MUS Robot can be found [[https://t.me/MedUniSofia_bot][here]]
 
-**** TODO
+*** TODO
 + Update main.py functions
 + Apply OOP concepts
