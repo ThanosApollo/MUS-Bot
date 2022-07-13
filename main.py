@@ -1,13 +1,14 @@
-from telebot.callback_data import CallbackData, CallbackDataFilter
+#from telebot.callback_data import CallbackData, CallbackDataFilter
 from telebot import types, TeleBot
 from telebot.custom_filters import AdvancedCustomFilter
 from API_Tokens import *
 from Contactinfo import *
 from Keyboards import *
 
-API_TOKEN = testing_bot
-#test
+API_TOKEN = MUSRobot
+
 bot = TeleBot(API_TOKEN)
+
 
 
 @bot.message_handler(commands=['year1info'])
@@ -59,7 +60,7 @@ def back_callback(call: types.CallbackQuery):
 @bot.message_handler(commands=['library'])
 def send_library(message):
     bot.send_message(message.chat.id, """
-https://drive.google.com/drive/u/0/folders/1jwAcnVtDQwHH2yQgbClMMBzmh85gBarW \nUse your university email to login, if you have any additional resources you wish to be added let me know, educational resources should be accessible for everyone :)
+https://drive.google.com/drive/u/0/folders/1jwAcnVtDQwHH2yQgbClMMBzmh85gBarW \nNOTE : Use your university email to login {youer_email_number}@students.mu-sofia.bg
 """)
 
 @bot.message_handler(commands=['info'])
@@ -68,6 +69,12 @@ def send_library(message):
     Hello, you can find the source code of MUS-Robot on my github account: https://github.com/ThanosApollo/MUS-Bot
 """)
 
+@bot.message_handler(commands=['start'])
+def send_library(message):
+    bot.send_message(message.chat.id, """
+   How can I help you today? \nAvailable commands \n/library - Link to student's library \n/info - link for the github page of MU-Robot /dean - Dean office contact info \n/year(yearNumber)info - e.g /year3info
+
+""")
 
 bot.add_custom_filter(SubjectsCallbackFilter())
 bot.infinity_polling()
