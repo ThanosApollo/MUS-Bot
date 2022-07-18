@@ -6,6 +6,13 @@
 + [[About]]
 + [[How to contribute]]
 + [[Contact Information]]
+  + [[Year 1]]
+  + [[Year 2]]
+  + [[Year 3]]
+  + [[Year 4]]
+  + [[Year 5]]
+  + [[Year 6]]
+  + [[Dean Office]]
 + [[MU-Robot]] Source-code
 ** About
 + MUS Robot aim is to support MU-Sofia medical students
