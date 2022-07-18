@@ -542,6 +542,9 @@ def always_ready(message):
     elif message.text == 'Dean':
         bot.send_message(message.from_user.id, "Choose a year", reply_markup=keyboard("dean"))
 
+    elif message.text == 'Library':
+        bot.send_message(message.from_user.id, "https://drive.google.com/drive/u/0/folders/1jwAcnVtDQwHH2yQgbClMMBzmh85gBarW", reply_markup=keyboard("back"))
+
     elif message.text == "Anatomy":
         bot.send_message(message.from_user.id, anatomy, reply_markup=keyboard("back"))
     elif message.text == "Chemistry":
