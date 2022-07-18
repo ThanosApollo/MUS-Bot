@@ -683,7 +683,7 @@ def always_ready(message):
         bot.send_message(message.from_user.id, dean_4, reply_markup=keyboard("back"))
     elif message.text == 'Year 5':
         bot.send_message(message.from_user.id, dean_5, reply_markup=keyboard("back"))
-    elif message.text == 'Year 6 ':
+    elif message.text == 'Year 6':
         bot.send_message(message.from_user.id, dean_6, reply_markup=keyboard("back"))
 
 
