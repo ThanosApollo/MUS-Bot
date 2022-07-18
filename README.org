@@ -3,17 +3,17 @@
 #+PROPERTY: header-args :tangle main.py
 
 ** Table of contents
-+ [[About]]
-+ [[How to contribute]]
-+ [[Contact Information]]
-  + [[Year 1]]
-  + [[Year 2]]
-  + [[Year 3]]
-  + [[Year 4]]
-  + [[Year 5]]
-  + [[Year 6]]
-  + [[Dean Office]]
-+ [[MU-Robot]] | Source-code
++ [[*About][About]]
++ [[*How to contribute][How to contribute]]
++ [[*Contact Information][Contact Information]]
+  + [[*Year 1][Year 1]]
+  + [[*Year 2][Year 2]]
+  + [[*Year 3][Year 3]]
+  + [[*Year 4][Year 4]]
+  + [[*Year 5][Year 5]]
+  + [[*Year 6][Year 6]]
+  + [[*Dean Office][Dean Office]]
++ [[*MU-Robot][MU-Robot]] | Source-code
 ** About
 + MUS Robot aim is to support MU-Sofia medical students
 + Provides information related to our medical courses as well as links for study resources
@@ -23,9 +23,9 @@
 + For *MUS Students*
    + Contributing can be done directly by GitHub, all you need is a GitHub account
    + Tutorial [[https://www.youtube.com/watch?v=waEb2c9NDL8][here]]
-   + I'd appreciate if you would help me keep the [[Contact Information]] up to date
+   + I'd appreciate if you would help me keep the [[*Contact Information][Contact Information]] up to date
 + For *Developers*
-  + Edit [[MU-Robot]] section directly from README.org
+  + Edit the [[*MU-Robot][Source-code]] section directly from README.org
 + Contributions are welcomed
 
 ** Contact Information
