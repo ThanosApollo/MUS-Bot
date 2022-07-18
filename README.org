@@ -13,10 +13,10 @@
   + [[Year 5]]
   + [[Year 6]]
   + [[Dean Office]]
-+ [[MU-Robot]] Source-code
++ [[MU-Robot]] | Source-code
 ** About
 + MUS Robot aim is to support MU-Sofia medical students
-+ Provides information related our medical courses as well as links for study resources
++ Provides information related to our medical courses as well as links for study resources
 + Created using [[https://github.com/eternnoir/pyTelegramBotAPI][pyTelegramBotAPI]]
 + MUS Robot can be found [[https://t.me/MedUniSofia_bot][here]]
 ** How to contribute
@@ -24,6 +24,8 @@
    + Contributing can be done directly by GitHub, all you need is a GitHub account
    + Tutorial [[https://www.youtube.com/watch?v=waEb2c9NDL8][here]]
    + I'd appreciate if you would help me keep the [[Contact Information]] up to date
++ For *Developers*
+  + Edit [[MU-Robot]] section directly from README.org
 + Contributions are welcomed
 
 ** Contact Information
